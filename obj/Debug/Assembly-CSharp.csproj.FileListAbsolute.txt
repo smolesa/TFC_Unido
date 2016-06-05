@@ -1,0 +1,42 @@
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Assembly-CSharp.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEditor.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEngine.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEngine.UI.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Mono.Cecil.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Unity.DataContract.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Unity.CecilTools.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEngine.xml
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEditor.xml
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEngine.UI.xml
+E:\Proyectos Unity\TFC_Unido\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\Proyectos Unity\TFC_Unido\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+E:\Proyectos Unity\TFC_Unido\obj\Debug\Assembly-CSharp.dll
+E:\Proyectos Unity\TFC_Unido\obj\Debug\Assembly-CSharp.pdb
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Assembly-CSharp.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Assembly-CSharp.pdb
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEditor.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEngine.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEngine.Networking.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEngine.UI.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Mono.Cecil.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Unity.SerializationLogic.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Unity.DataContract.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Unity.UNetWeaver.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Unity.CecilTools.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEngine.xml
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEditor.xml
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEngine.UI.xml
+B:\Descargas\TFC_Unido\Temp\bin\Debug\UnityEngine.Networking.xml
+B:\Descargas\TFC_Unido\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+B:\Descargas\TFC_Unido\obj\Debug\Assembly-CSharp.dll
+B:\Descargas\TFC_Unido\obj\Debug\Assembly-CSharp.pdb
