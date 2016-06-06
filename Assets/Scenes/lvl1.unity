@@ -11467,6 +11467,23 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1777881022}
   m_Script: {fileID: 11500000, guid: 99646e0137a472a44b8ad2e16b5ba06e, type: 3}
+--- !u!1 &1777881024 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 144372, guid: 5b0bfb2945c5b5d40805d93c8c5f3137, type: 2}
+  m_PrefabInternal: {fileID: 1777881022}
+--- !u!114 &1777881025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777881024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46ebbaf9253f5141aec7fe353772f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemigo:
+  - {fileID: 2032719675}
 --- !u!1 &1779029789
 GameObject:
   m_ObjectHideFlags: 0
@@ -12662,7 +12679,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 463348, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 38.55
+      value: -39.88
       objectReference: {fileID: 0}
     - target: {fileID: 463348, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
       propertyPath: m_LocalPosition.y
@@ -12670,7 +12687,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 463348, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -12.5194
+      value: -12.46
       objectReference: {fileID: 0}
     - target: {fileID: 463348, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
       propertyPath: m_LocalRotation.x
@@ -12700,9 +12717,17 @@ Prefab:
       propertyPath: muerte
       value: 
       objectReference: {fileID: 2800000, guid: 4c0f810dff61fd346b81bdef52309164, type: 3}
+    - target: {fileID: 463348, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.053917333
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2032719675 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 106388, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
+  m_PrefabInternal: {fileID: 2032719674}
 --- !u!1001 &2055228155
 Prefab:
   m_ObjectHideFlags: 0

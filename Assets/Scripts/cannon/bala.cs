@@ -10,7 +10,7 @@ public class bala : MonoBehaviour {
 		transform.Translate (Vector3.right * canon.Potenciaf * Time.deltaTime);
 	}
 	void OnCollisionEnter(Collision otherObj) {
-		Destroy(gameObject, 3f);
+		Destroy(gameObject, 6f);
 		canon.Potenciaf = canon.Potenciaf/2f;
 	}
 

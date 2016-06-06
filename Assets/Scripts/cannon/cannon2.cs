@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class cannon2 : MonoBehaviour {
 	public Transform Spawn;
@@ -7,10 +8,10 @@ public class cannon2 : MonoBehaviour {
 	public GameObject Clonbala;
 	public float Potencia;
 	public float Potenciaf;
-	public int Cmunicion = 200;
+	public int Cmunicion = 5;
 
 	void Update () {
-		Potencia = Mathf.PingPong (Time.time, 10)+50;
+		Potencia = Mathf.PingPong (Time.time*5, 40)+15;
 		disparo ();
 	}
 	void disparo (){
@@ -24,6 +25,7 @@ public class cannon2 : MonoBehaviour {
 			}
 			else {
 				Debug.LogWarning ("GAME OVER");
+				SceneManager.LoadScene (0);
 			}
 		}
 

@@ -11,11 +11,11 @@ public class Muerte : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		if (GameObject.Find ("balaCannon(Clone)") != null) {
 			if (collision.gameObject.name == "balaCannon(Clone)") {
-				Destroy (gameObject, 5f);
+				Destroy (gameObject, 2.5f);
 				Debug.LogWarning ("GAME OVER");
 				textureRenderer.material.mainTexture = caramuerte;
 			}
-	}
+		}
 
-}
+	}
 }
