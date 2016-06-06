@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 106388}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
   m_LocalPosition: {x: 38.47, y: 3.5, z: -13.02}
-  m_LocalScale: {x: 1.8492256, y: 0.47, z: 1.8492241}
+  m_LocalScale: {x: 1.8492256, y: 0.38, z: 1.8492241}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,7 +91,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11403099629bd0941a947727abc6c068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bala: {fileID: 199174, guid: c833e47b42547fd4da3e761bc78abdac, type: 2}
   caramuerte: {fileID: 2800000, guid: 4c0f810dff61fd346b81bdef52309164, type: 3}
 --- !u!136 &13667900
 CapsuleCollider:
