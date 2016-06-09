@@ -1,13 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\cannon\cannon.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CamaraPrincipal.cs">
     <Files>
-      <File FileName="Assets\Scripts\Madera.cs" Line="17" Column="24" />
+      <File FileName="Assets\Scripts\BarreraCamara.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CamaraPrincipal.cs" Line="18" Column="1" />
+      <File FileName="Assets\Scripts\Madera.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\cannon\cannon.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\cannon\cannon2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Hielo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\cannon\bala.cs" Line="15" Column="27" />
-      <File FileName="Assets\Scripts\Muerte.cs" Line="17" Column="1" />
+      <File FileName="Assets\Scripts\cannon\bala.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Muerte.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
