@@ -3,6 +3,8 @@ using System.Collections;
 
 public class bala : MonoBehaviour {
 	private cannon2 canon;
+	public AudioClip golpe;
+	private AudioSource audio;
 	void Awake (){
 		canon = GameObject.Find ("cannon").GetComponent<cannon2> ();
 	}
@@ -12,6 +14,9 @@ public class bala : MonoBehaviour {
 	void OnCollisionEnter(Collision otherObj) {
 		Destroy(gameObject, 6f);
 		canon.Potenciaf = canon.Potenciaf/2f;
+		audio = GetComponent<AudioSource>();
+		audio.clip = golpe;
+		audio.Play();
 	}
 
 }
