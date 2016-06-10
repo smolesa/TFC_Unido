@@ -3,8 +3,9 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class cannon2 : MonoBehaviour {
-	public AudioClip shoot;
-	private AudioSource audio;
+	public AudioClip bigshot;
+	private AudioSource audio;	
+	public AudioClip smallshot;
 	public Transform Spawn;
 	public GameObject Bala;
 	public GameObject Clonbala;
@@ -21,19 +22,24 @@ public class cannon2 : MonoBehaviour {
 			if (Cmunicion > 0) {
 				if (Input.GetKeyDown ("space")) {
 					audio = GetComponent<AudioSource>();
-					audio.clip = shoot;
-					audio.Play();
+					if (Potencia > 35f){
+					audio.clip = bigshot;
+					audio.Play();}
+					else{
+					audio.clip = smallshot;
+					audio.Play();}
+					
 					Potenciaf = Potencia;
 					Clonbala = Instantiate (Bala, Spawn.transform.position, Spawn.transform.rotation) as GameObject;
-					Cmunicion--;
+					Cmunicion--;}
 				}
-			}
 			else {
 				Debug.LogWarning ("GAME OVER");
 				SceneManager.LoadScene (0);
+			}
+
 			}
 		}
 
 	}
 
-}
