@@ -10071,6 +10071,10 @@ Prefab:
       propertyPath: CanvasMenu
       value: 
       objectReference: {fileID: 1905470266}
+    - target: {fileID: 11460330, guid: 5b0bfb2945c5b5d40805d93c8c5f3137, type: 2}
+      propertyPath: Enemigo.Array.data[0]
+      value: 
+      objectReference: {fileID: 2032719675}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b0bfb2945c5b5d40805d93c8c5f3137, type: 2}
   m_IsPrefabParent: 0
