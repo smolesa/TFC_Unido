@@ -11203,6 +11203,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.053917333
       objectReference: {fileID: 0}
+    - target: {fileID: 8202778, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d9da4e85f14c5894782075c0a1178aec, type: 2}
   m_IsPrefabParent: 0
