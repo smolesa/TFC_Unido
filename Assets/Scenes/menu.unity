@@ -491,8 +491,8 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 120}
-  m_SizeDelta: {x: 613, y: 136}
+  m_AnchoredPosition: {x: -2, y: 133.5}
+  m_SizeDelta: {x: 613, y: 109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &399690629
 MonoBehaviour:
@@ -797,7 +797,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223, y: -153}
+  m_AnchoredPosition: {x: 3, y: -119}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722536632
@@ -1251,7 +1251,7 @@ RectTransform:
   m_RootOrder: 8
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -223, y: -153}
+  m_AnchoredPosition: {x: 3, y: -119}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &904900831
@@ -1448,7 +1448,7 @@ GameObject:
   - 4: {fileID: 995150432}
   - 82: {fileID: 995150431}
   m_Layer: 0
-  m_Name: Kalimba (1)
+  m_Name: MusicaMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1463,7 +1463,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 88e86b3678bff574eab116d715b2bbfe, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ca3fc3b660a6cba4c91a7c869ab12356, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2056,7 +2056,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 2
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1953544487}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -3186,7 +3186,6 @@ GameObject:
   - 124: {fileID: 1953544486}
   - 92: {fileID: 1953544485}
   - 81: {fileID: 1953544484}
-  - 114: {fileID: 1953544489}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -3261,19 +3260,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!114 &1953544489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1953544483}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f94e01f577f14e438b370f5ce20ff9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidad: 2
-  angulo: 2
 --- !u!1 &2130494598
 GameObject:
   m_ObjectHideFlags: 0
@@ -3285,6 +3271,7 @@ GameObject:
   - 222: {fileID: 2130494602}
   - 114: {fileID: 2130494601}
   - 114: {fileID: 2130494600}
+  - 132: {fileID: 2130494603}
   m_Layer: 5
   m_Name: Escena 01
   m_TagString: Untagged
@@ -3395,3 +3382,26 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130494598}
+--- !u!132 &2130494603
+GUIText:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130494598}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: 
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 0, y: 0}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: ade07370f2cca144cac0a06c37ab89b8, type: 3}
+  m_Material: {fileID: 0}
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1

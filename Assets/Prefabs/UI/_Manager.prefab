@@ -26,6 +26,8 @@ GameObject:
   - 4: {fileID: 485202}
   - 114: {fileID: 11459386}
   - 114: {fileID: 11413294}
+  - 114: {fileID: 11460330}
+  - 114: {fileID: 11446060}
   m_Layer: 0
   m_Name: _Manager
   m_TagString: Untagged
@@ -69,7 +71,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36793bf0697e4e4cacf27e9d1be1285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanvasMenu: {fileID: 0}
+--- !u!114 &11446060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdc6363a92a4bf49baea106c6c837e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   CanvasMenu: {fileID: 117232, guid: ca8a587d3e4ddcf419e67f2aa51ada4f, type: 2}
+  ScriptDisparar: {fileID: 101056, guid: a10a75c2df7779641b891b018798f14d, type: 2}
 --- !u!114 &11459386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -81,6 +96,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99646e0137a472a44b8ad2e16b5ba06e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11460330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46ebbaf9253f5141aec7fe353772f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enemigo:
+  - {fileID: 0}
 --- !u!114 &11488814
 MonoBehaviour:
   m_ObjectHideFlags: 1
