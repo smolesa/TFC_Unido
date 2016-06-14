@@ -11,7 +11,7 @@ public class cannon2 : MonoBehaviour {
 	public GameObject Clonbala;
 	public float Potencia;
 	public float Potenciaf;
-	public int Cmunicion = 5;
+	public int Cmunicion = 10;
 	private Canvas CanvasInterfaz;
 		
 	void Update () {
@@ -36,7 +36,7 @@ public class cannon2 : MonoBehaviour {
 				}
 			else {
 				Debug.LogWarning ("GAME OVER");
-				SceneManager.LoadScene (0);
+				SceneManager.LoadScene (8);
 			}
 
 			}
