@@ -12,7 +12,8 @@ public class cannon2 : MonoBehaviour {
 	public float Potencia;
 	public float Potenciaf;
 	public int Cmunicion = 5;
-
+	private Canvas CanvasInterfaz;
+		
 	void Update () {
 		Potencia = Mathf.PingPong (Time.time*5, 40)+15;
 		disparo ();

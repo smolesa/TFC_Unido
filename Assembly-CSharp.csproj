@@ -56,9 +56,11 @@
      <Compile Include="Assets\Scripts\Madera.cs" />
      <Compile Include="Assets\Scripts\MenuEnJuego.cs" />
      <Compile Include="Assets\Scripts\Muerte.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\camaraBala.cs" />
      <Compile Include="Assets\Scripts\cannon\BarraEnergia.cs" />
      <Compile Include="Assets\Scripts\cannon\ChangeScene.cs" />
+     <Compile Include="Assets\Scripts\cannon\Municion.cs" />
      <Compile Include="Assets\Scripts\cannon\bala.cs" />
      <Compile Include="Assets\Scripts\cannon\cannon.cs" />
      <Compile Include="Assets\Scripts\cannon\cannon2.cs" />
