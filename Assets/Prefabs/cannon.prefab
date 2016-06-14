@@ -1,18 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &101056
+--- !u!1 &163086
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 461844}
-  - 212: {fileID: 21266910}
-  - 114: {fileID: 11407514}
-  - 114: {fileID: 11400546}
-  - 82: {fileID: 8294848}
-  - 82: {fileID: 8299090}
+  - 4: {fileID: 442516}
+  - 212: {fileID: 21230696}
+  - 114: {fileID: 11456032}
+  - 114: {fileID: 11446792}
+  - 82: {fileID: 8223660}
+  - 82: {fileID: 8272180}
   m_Layer: 0
   m_Name: cannon
   m_TagString: Untagged
@@ -20,25 +20,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &461844
+--- !u!4 &442516
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101056}
+  m_GameObject: {fileID: 163086}
   m_LocalRotation: {x: 0, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -124.23, y: 4.73, z: -13.99}
   m_LocalScale: {x: 1.863757, y: 1.86362, z: 1.8637568}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!82 &8294848
+--- !u!82 &8223660
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101056}
+  m_GameObject: {fileID: 163086}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -107,12 +106,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!82 &8299090
+--- !u!82 &8272180
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101056}
+  m_GameObject: {fileID: 163086}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -181,12 +180,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &11400546
+--- !u!114 &11446792
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101056}
+  m_GameObject: {fileID: 163086}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63ed60cf93c8c9c4ab5953a57f770c7d, type: 3}
@@ -194,29 +193,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bigshot: {fileID: 8300000, guid: 80350cb60ee6ea241bd07999256fb0d9, type: 3}
   smallshot: {fileID: 8300000, guid: 3056ccf30ff829249bbe0006a6792ffa, type: 3}
-  Spawn: {fileID: 461844}
+  Spawn: {fileID: 442516}
   Bala: {fileID: 199174, guid: c833e47b42547fd4da3e761bc78abdac, type: 2}
   Clonbala: {fileID: 0}
   Potencia: 0
   Potenciaf: 0
   Cmunicion: 10
---- !u!114 &11407514
+--- !u!114 &11456032
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101056}
+  m_GameObject: {fileID: 163086}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf231205a80acb949981946bcffcaf82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!212 &21266910
+--- !u!212 &21230696
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 101056}
+  m_GameObject: {fileID: 163086}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -250,5 +249,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 101056}
+  m_RootGameObject: {fileID: 163086}
   m_IsPrefabParent: 1

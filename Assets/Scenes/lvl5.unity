@@ -1470,7 +1470,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &177481358
 MeshRenderer:
@@ -5392,7 +5392,7 @@ GameObject:
   - 82: {fileID: 587894697}
   m_Layer: 0
   m_Name: enemigo3
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6184,7 +6184,7 @@ GameObject:
   - 82: {fileID: 703513305}
   m_Layer: 0
   m_Name: enemigo1
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6395,7 +6395,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &711708754
 MeshRenderer:
@@ -8270,7 +8270,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &858748244
 MeshRenderer:
@@ -8495,7 +8495,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &916504269
 MeshRenderer:
@@ -10648,7 +10648,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &1162810059
 GameObject:
   m_ObjectHideFlags: 0
@@ -10665,7 +10665,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &1162810060
 MeshRenderer:
@@ -17109,7 +17109,7 @@ GameObject:
   - 82: {fileID: 1729855146}
   m_Layer: 0
   m_Name: enemigo2
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17596,6 +17596,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1795214868}
+  - 222: {fileID: 1795214869}
   m_Layer: 0
   m_Name: tree
   m_TagString: Untagged
@@ -17658,6 +17659,12 @@ Transform:
   - {fileID: 2096770406}
   m_Father: {fileID: 0}
   m_RootOrder: 13
+--- !u!222 &1795214869
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1795214867}
 --- !u!1 &1803955141
 GameObject:
   m_ObjectHideFlags: 0
@@ -19801,7 +19808,7 @@ GameObject:
   - 4: {fileID: 2022600833}
   m_Layer: 0
   m_Name: enemigos
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20687,7 +20694,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &2133040667
 MeshRenderer:

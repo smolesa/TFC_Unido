@@ -174,7 +174,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &13805168
 Transform:
@@ -395,7 +395,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
 --- !u!1 &39463583
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,7 +426,7 @@ Transform:
   - {fileID: 581466254}
   - {fileID: 1863437882}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
 --- !u!1 &41785007
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +616,7 @@ Transform:
   - {fileID: 1316853415}
   - {fileID: 1018861133}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &73565771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,7 +1200,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &177481358
 MeshRenderer:
@@ -1258,7 +1258,7 @@ Transform:
   m_LocalScale: {x: 1, y: 300, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
 --- !u!1 &178341374
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,7 +2088,7 @@ GameObject:
   - 82: {fileID: 276719364}
   m_Layer: 0
   m_Name: enemigo1
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3455,7 +3455,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &437329625
 MeshRenderer:
@@ -3513,7 +3513,7 @@ Transform:
   m_LocalScale: {x: 50, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
 --- !u!1 &437851083
 GameObject:
   m_ObjectHideFlags: 0
@@ -3542,10 +3542,6 @@ Transform:
   - {fileID: 936463763}
   m_Father: {fileID: 1916807893}
   m_RootOrder: 24
---- !u!1 &449256154 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 101056, guid: a10a75c2df7779641b891b018798f14d, type: 2}
-  m_PrefabInternal: {fileID: 1665962465}
 --- !u!1 &484499304
 GameObject:
   m_ObjectHideFlags: 0
@@ -3705,7 +3701,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &512626470
 Transform:
@@ -4585,7 +4581,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &711708754
 MeshRenderer:
@@ -4643,7 +4639,7 @@ Transform:
   m_LocalScale: {x: 1, y: 500, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
 --- !u!1001 &722341967
 Prefab:
   m_ObjectHideFlags: 0
@@ -4767,7 +4763,7 @@ Transform:
   - {fileID: 1891914962}
   - {fileID: 202001819}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 18
 --- !u!1 &732225244
 GameObject:
   m_ObjectHideFlags: 0
@@ -5118,7 +5114,7 @@ Transform:
   - {fileID: 1852974485}
   - {fileID: 1632008596}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1001 &769992826
 Prefab:
   m_ObjectHideFlags: 0
@@ -5358,7 +5354,7 @@ GameObject:
   - 54: {fileID: 812462467}
   m_Layer: 0
   m_Name: enemigo4
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5614,7 +5610,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &858748244
 MeshRenderer:
@@ -5672,7 +5668,7 @@ Transform:
   m_LocalScale: {x: 50, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
 --- !u!1 &865779067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5897,7 +5893,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &916504269
 MeshRenderer:
@@ -5955,7 +5951,7 @@ Transform:
   m_LocalScale: {x: 1, y: 300, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
 --- !u!1 &936426604
 GameObject:
   m_ObjectHideFlags: 0
@@ -7806,12 +7802,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1155759690}
-  m_LocalRotation: {x: -0.10659658, y: 0.61083066, z: -0.74437046, w: 0.24786244}
-  m_LocalPosition: {x: 12.1, y: 80.7, z: -79}
+  m_LocalRotation: {x: -0.056155078, y: 0.45375285, z: -0.84929955, w: 0.2639038}
+  m_LocalPosition: {x: -302, y: 664, z: -236}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1001 &1159860815
 Prefab:
   m_ObjectHideFlags: 0
@@ -7902,7 +7898,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &1162810060
 MeshRenderer:
@@ -7960,7 +7956,7 @@ Transform:
   m_LocalScale: {x: 1000, y: 300, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1166609733
 GameObject:
   m_ObjectHideFlags: 0
@@ -8813,7 +8809,7 @@ GameObject:
   - 54: {fileID: 1288047913}
   m_Layer: 0
   m_Name: enemigo2
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10745,7 +10741,7 @@ GameObject:
   - 114: {fileID: 1517533577}
   m_Layer: 0
   m_Name: enemigo3
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11896,7 +11892,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &1654665686
 MeshRenderer:
@@ -11954,7 +11950,7 @@ Transform:
   m_LocalScale: {x: 30, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
 --- !u!1001 &1656003553
 Prefab:
   m_ObjectHideFlags: 0
@@ -12995,7 +12991,7 @@ Prefab:
     - target: {fileID: 11446060, guid: 5b0bfb2945c5b5d40805d93c8c5f3137, type: 2}
       propertyPath: ScriptDisparar
       value: 
-      objectReference: {fileID: 449256154}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b0bfb2945c5b5d40805d93c8c5f3137, type: 2}
   m_IsPrefabParent: 0
@@ -13313,7 +13309,7 @@ GameObject:
   - 4: {fileID: 1834362437}
   m_Layer: 0
   m_Name: enemigos
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13333,7 +13329,7 @@ Transform:
   - {fileID: 1517533573}
   - {fileID: 812462463}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
 --- !u!1 &1841624730
 GameObject:
   m_ObjectHideFlags: 0
@@ -14061,7 +14057,7 @@ Transform:
   - {fileID: 708558061}
   - {fileID: 1943903870}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
 --- !u!1 &1943903869
 GameObject:
   m_ObjectHideFlags: 0
@@ -14408,7 +14404,7 @@ Transform:
   - {fileID: 1490009940}
   - {fileID: 960691418}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!1 &2004097054
 GameObject:
   m_ObjectHideFlags: 0
@@ -14857,7 +14853,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &2056082260
 MeshRenderer:
@@ -14920,7 +14916,7 @@ Transform:
   - {fileID: 512626470}
   - {fileID: 13805168}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &2060144352
 GameObject:
   m_ObjectHideFlags: 0
@@ -15317,7 +15313,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!23 &2133040667
 MeshRenderer:
@@ -15375,7 +15371,7 @@ Transform:
   m_LocalScale: {x: 1000, y: 400, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &2142706961
 GameObject:
   m_ObjectHideFlags: 0
