@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\camaraBala.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ComprobarSiMenu.cs">
     <Files>
+      <File FileName="Assets\Scripts\ComprobarSiMenu.cs" Line="13" Column="1" />
       <File FileName="Assets\Scripts\cannon\ChangeScene.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\cannon\cannon2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ComprobarSiMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\DisableCanvasMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MenuEnJuego.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BarreraCamara.cs" Line="1" Column="1" />
