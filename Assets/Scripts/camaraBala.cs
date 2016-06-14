@@ -7,7 +7,6 @@ public class camaraBala : MonoBehaviour {
 	void Start () {
 		transform.LookAt (bala);
 	}
-	
 	// Update is called once per frame
 	void Update () {
 		transform.LookAt (bala);
