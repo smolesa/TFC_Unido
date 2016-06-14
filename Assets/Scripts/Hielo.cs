@@ -10,7 +10,7 @@ public class Hielo : MonoBehaviour {
 				audio = GetComponent<AudioSource>();
 				audio.clip = Hieloroto;
 				audio.Play();
-				Destroy (gameObject,3f);
+				Destroy (gameObject,1.5f);
 
 			}
 		}
