@@ -22,11 +22,11 @@ public class Metal : MonoBehaviour {
 				audio.clip = impactobala;
 				audio.Play();
 				cont ++;
-				if (cont==2){
-                    textureRenderer.material.mainTexture = metalroto1;
+				textureRenderer.material.mainTexture = metalroto1;
+				if (cont>=2){textureRenderer.material.mainTexture = metalroto2;
                     }
 				if (cont==3){
-                    textureRenderer.material.mainTexture = metalroto2;
+                    
                     Destroy (gameObject, 2f);}
 			
 		}
